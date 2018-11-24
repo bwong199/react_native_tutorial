@@ -4,9 +4,9 @@ import Card from './Card'
 
 const CardSection = (props) => {
     return (
-            <Text style={styles.containerStyle}>
+            <View style={styles.containerStyle}>
                 {props.children}            
-            </Text>
+            </View>
     )
 } 
 
